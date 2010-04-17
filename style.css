@@ -1,9 +1,41 @@
+body {
+	background-color: #6080a0;
+}
+
+.opaque {
+	background-color: #ffffff;
+	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
 .longdate {
 	color: gray;
 	font-size: small;
 }
 
 .signature {
-	color: gray;
 	font-size: small;
+}
+
+.signature a {
+	color: gray;
+}
+
+.signature a:visited {
+	color: #303030;
+}
+
+.post-title {
+	margin: 0px;
+}
+
+.post-body {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.blog-post {
+	border: solid black 1px;
+	padding: 2px;
+	max-width: 800px;
 }
